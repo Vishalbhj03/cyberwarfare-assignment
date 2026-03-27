@@ -18,7 +18,7 @@ sudo chmod +x monitor.sh
 crontab -e
 
 Added:
-* * * * * /opt/container-monitor/monitor.sh
+`* * * * * /opt/container-monitor/monitor.sh`
 
 6. Verified logs:
 cat /opt/container-monitor/logs/monitor.log
